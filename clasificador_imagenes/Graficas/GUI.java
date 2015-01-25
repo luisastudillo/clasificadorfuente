@@ -15,19 +15,14 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
@@ -59,7 +54,7 @@ public class GUI  extends JFrame{
     public ArrayList<Anio> anios;
     
     /**
-     * Arbol compuesto por los anños y los meses donde se ubiquen la imagenes
+     * Arbol compuesto por los años y los meses donde se ubiquen la imagenes
      */
     public JTree arbol;
 
@@ -131,7 +126,7 @@ public class GUI  extends JFrame{
     public PanelImagen panelImagen;
 
     /**
-     * Tabla donde se ubicara en nombre de las imagenes y su fecha de creacion
+     * Tabla donde se ubicara el nombre de las imagenes y su fecha de creacion
      */
     public JTable tabla;
 
